@@ -9,7 +9,6 @@ Este projeto realiza a consulta da previsão do tempo para uma cidade especifica
 - **Consulta da previsão do tempo**: Obtém dados sobre temperatura máxima, mínima, sensação térmica, umidade, velocidade do vento, etc.
 - **Exibição das informações no terminal**: Mostra a previsão do tempo detalhada para os dias solicitados.
 - **Previsão por hora**: Exibe a previsão do tempo para cada hora do dia.
-- **Gráfico de temperatura**: Gera um gráfico de temperatura com as temperaturas máxima e mínima ao longo dos dias solicitados.
 
 ## Requisitos
 
