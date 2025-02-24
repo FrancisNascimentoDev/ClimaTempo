@@ -1,4 +1,6 @@
-# Documentação do Projeto: Projeto de Previsão do Tempo com Python e WeatherAPI. 
+# Documentação do Projeto
+
+## 🚀 Projeto de Previsão do Tempo com Python e WeatherAPI 🌦️
 
 ## Descrição
 
