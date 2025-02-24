@@ -1,4 +1,4 @@
-# Documentação do Projeto: Previsão do Tempo com previsão por hora. 
+# Documentação do Projeto: Projeto de Previsão do Tempo com Python e WeatherAPI. 
 
 ## Descrição
 
