@@ -4,9 +4,11 @@ from datetime import datetime
 import matplotlib.pyplot as plt
 import io
 import base64
+import os
+from dotenv import load_dotenv
 
 app = Flask(__name__)
-
+load_dotenv() 
 # Configuração da API
 API_KEY = "ae0eabeeed9d4ca084a190313252102"
 BASE_URL = "http://api.weatherapi.com/v1/forecast.json?"
