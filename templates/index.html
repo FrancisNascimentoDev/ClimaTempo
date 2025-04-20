@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h3 class="mb-0">Consultar Previsão do Tempo</h3>
+            </div>
+            <div class="card-body">
+                <form method="POST" action="/">
+                    <div class="mb-3">
+                        <label for="cidade" class="form-label">Cidade:</label>
+                        <input type="text" class="form-control" id="cidade" name="cidade" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="dias" class="form-label">Dias de Previsão:</label>
+                        <select class="form-select" id="dias" name="dias">
+                            <option value="1">1 dia</option>
+                            <option value="3">3 dias</option>
+                            <option value="5">5 dias</option>
+                            <option value="7">7 dias</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Consultar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

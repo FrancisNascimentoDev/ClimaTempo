@@ -1,0 +1,33 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.hourly-forecast::-webkit-scrollbar {
+    height: 8px;
+}
+
+.hourly-forecast::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.hourly-forecast::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.hourly-forecast::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
